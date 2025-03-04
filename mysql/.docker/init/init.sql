@@ -1,0 +1,9 @@
+CREATE DATABASE
+IF NOT EXISTS nodenginxdb;
+CREATE TABLE
+IF NOT EXISTS `nodenginxdb`.`people`
+(
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR
+(255) NOT NULL
+);
